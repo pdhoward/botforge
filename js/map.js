@@ -1,18 +1,5 @@
-// Copyright 2017 Google Inc.
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//      http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
 
-/* 
+/*
  * Conversation map
  */
 
@@ -24,7 +11,7 @@ var actionOperators = "= += -= /= *= ^= %=  ++ --".split(" ");
 
 // types of paths
 // numbers
-// 
+//
 function parseMapValue(raw) {
 
   if (typeof raw === "number")
@@ -138,7 +125,7 @@ function parseMapExpression(raw, sections) {
   };
 
 
-  // If no sections provided, parse the raw into a list of operators 
+  // If no sections provided, parse the raw into a list of operators
   if (sections === undefined) {
     var sections = splitOnUnprotected(raw, expressionOperators, true, openChars, closeChars);
     sections = sections.map(s => isString(s) ? s.trim() : s).filter(s => s !== "");
@@ -266,7 +253,7 @@ function parseMapAction(raw) {
 
   // Types of actions: string, obj, or array
 
-  // Action types: 
+  // Action types:
   // In quotes, expand and output: "foo#bar#"
   // Asterisk: push this state to the stack
   // For: "action for value in array"
@@ -293,7 +280,7 @@ function parseMapAction(raw) {
       return parsed;
     }
 
-    // Remaining action types are expressions, 
+    // Remaining action types are expressions,
     //   either plain expressions (like x<5, foo(bar))
     //   Or 'setter' expressions
 
@@ -361,8 +348,8 @@ function parseMapAction(raw) {
 
 // Condition types
 //  "yes" -> the literal string 'yes'
-//  "#yes#" -> strings that can be generated with the tracery grammar 
-//  "#yes# $color$" -> 
+//  "#yes#" -> strings that can be generated with the tracery grammar
+//  "#yes# $color$" ->
 //  "color"
 // x = index where (egg/index/color == INPUT)""  -> find all values of index, and return
 
@@ -625,7 +612,7 @@ function parseMap(raw) {
     if (!Array.isArray(raw.exits))
       raw.exits = [raw.exits];
    parsed.exits = raw.exits.map(exit => parseExit(exit));
-   
+
   }
   return parsed;
 }
