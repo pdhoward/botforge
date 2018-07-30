@@ -128,6 +128,14 @@ const routes = {
 		filename: path.resolve(__dirname, 'css/images/ui-icons_777620_256x240.png'),
 		contentType: 'image/gif'
 	}, res),
+	'/css/images/ui-icons_cc0000_256x240.png': (req, res) => rndr({
+		filename: path.resolve(__dirname, 'css/images/ui-icons_cc0000_256x240.png'),
+		contentType: 'image/gif'
+	}, res),
+	'/css/images/ui-icons_ffffff_256x240.png': (req, res) => rndr({
+		filename: path.resolve(__dirname, 'css/images/ui-icons_ffffff_256x240.png'),
+		contentType: 'image/gif'
+	}, res)
 
 }
 
