@@ -1,0 +1,20 @@
+{
+  "name": "botforge",
+  "version": "0.5.0",
+  "description": "intelligent agent training",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdhoward/botforge.git"
+  },
+  "dependencies": {
+  },
+  "engines": {
+    "node": "9.11.2"
+  },
+  "devDependencies": {    
+  }
+}
