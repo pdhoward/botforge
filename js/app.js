@@ -1,17 +1,3 @@
-// Copyright 2017 Google Inc.
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//      http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
 
 // Default map id
 var defaultMapID = "tesla";
@@ -138,7 +124,7 @@ $(document).ready(function() {
     w: 400,
     h: 230
   });
-  
+
   new Panel("inspector", {
     x: 770,
     y: 10,
@@ -152,23 +138,23 @@ $(document).ready(function() {
     w: 320,
     h: 320,
   });
-  
+
   new Panel("stateview", {
     x: 1180,
     y: 350,
     w: 200,
     h: 200,
   });
-  
+
   io.init();
   chat.init();
   viz.init();
 
-  // Get the startUpMapId before we load the controls so we can assign the 
+  // Get the startUpMapId before we load the controls so we can assign the
   // dropdown properly
   var startUpMapId = localStorage.getItem("lastMap");
   if (startUpMapId === null) {
-    startUpMapId = defaultMapID; 
+    startUpMapId = defaultMapID;
   }
 
   controls.init(startUpMapId);

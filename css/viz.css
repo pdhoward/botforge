@@ -1,18 +1,3 @@
-/*
- * Copyright 2017 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 
 .traceryparse-node {
   margin: 1px;
@@ -24,10 +9,10 @@
 .inspector-node {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, .6);
   background-color: hsla(20, 20%, 90%,1);
-  
+
   margin: 5px 3px;
   border: 1px solid rgba(0, 0, 0, .3);
-  
+
   overflow: hidden;
   border-radius: 5px;
 }
@@ -45,7 +30,7 @@
 
 .inspector-content {
   margin: 0px;
-  
+
   padding: 1px 2px;
 }
 
@@ -55,16 +40,16 @@
   font-size: 10px;
   margin: 0px;
   font-weight: 100;
-  
+
   padding: 1px 2px;
 }
 .inspector-node.inspector-map {
-  
+
 }
 
 
 .inspector-node.inspector-state {
-  
+
 }
 
 
@@ -81,10 +66,10 @@
 .inspector-action {
   display: inline-block;
   border-radius: 5px;
-  
+
   background-color: hsla(20, 20%, 99%,1);
-  
-  
+
+
 }
 
 .path {
@@ -110,12 +95,12 @@
 
 .map-onEnter {
 background-color: hsla(290, 80%, 57%, .2);
-  
+
 }
 
 .map-exits {
   background-color: hsla(220, 80%, 57%, .2);
-  
+
 }
 .small-label {
   font-size: 10px;
@@ -138,7 +123,7 @@ background-color: hsla(290, 80%, 57%, .2);
   font-size: 10px;
   background-color: hsla(40, 80%, 85%,1);
   border: 2px solid hsla(40, 80%, 45%,.4);
-  
+
 }
 
 .inspector-chip {
@@ -160,9 +145,9 @@ background-color: hsla(290, 80%, 57%, .2);
   border-radius: 10px;
   margin: 2px;
   background-color: hsla(20, 20%, 99%,.2);
-  
 
-  
+
+
   box-shadow: 0px 1px 1px rgba(0, 0, 0, .4);
 }
 
@@ -182,7 +167,7 @@ background-color: hsla(290, 80%, 57%, .2);
 }
 
 .map-array {
-  
+
   border:none;
 
 }
@@ -196,20 +181,20 @@ background-color: hsla(290, 80%, 57%, .2);
 }
 
 .map-parameters {
-  
+
   border-radius: 30px;
   background-color: hsla(250, 80%, 27%, .3);
-  
+
 }
 
 
 .operator {
   border-radius: 40px;
   background-color: hsla(20, 70%, 80%,.9);
-  
+
   margin: 0px;
   padding: 0px;
-  
+
 }
 
 .mapinfo-view {
@@ -225,24 +210,24 @@ background-color: hsla(290, 80%, 57%, .2);
 .map-state {
   border-radius: 10px;
   background-color: hsla(20, 50%, 99%,.8);
-  
+
 
   border: 2px solid hsla(0, 0%, 0%,.4);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, .4);
 }
 .map-const {
-  
+
 }
 
 .map-action {
-  
+
 }
 .map-condition {
   border-radius: 10px;
-  
+
   background-color: hsla(20, 20%, 99%,.2);
   border: 2px solid hsla(0, 0%, 0%,.4);
-  
+
   box-shadow: 0px 1px 1px rgba(0, 0, 0, .4);
 }
 
@@ -252,14 +237,14 @@ background-color: hsla(290, 80%, 57%, .2);
   padding: 2px 4px;
   background-color: hsla(20, 20%, 99%,1);
   border: 1px solid hsla(0, 0%, 0%,.4);
-  
+
   box-shadow: 0px 1px 1px rgba(0, 0, 0, .4);
 }
 
 .map-outputTemplate {
   background-color: hsla(20, 90%, 90%,1);
   border: 1px solid hsla(20, 90%, 30%,.6);
-  
+
   border-radius: 10px 10px 1px 10px  !important;
 }
 
@@ -267,7 +252,7 @@ background-color: hsla(290, 80%, 57%, .2);
   background-color: hsla(220, 60%, 90%,1);
   border: 1px solid hsla(220, 90%, 30%,.5);
   border-radius: 10px 10px 10px 1px !important;
-  
+
 }
 
 #edit-controls {
@@ -293,7 +278,7 @@ background-color: hsla(290, 80%, 57%, .2);
 
 #edit-json .error {
   box-shadow: inset 0px 0px 0px 3px hsla(20, 90%, 50%,1);
-  
+
 }
 
 .openable-section {
@@ -335,7 +320,7 @@ background-color: hsla(290, 80%, 57%, .2);
   padding: 2px;
   border: 1px solid hsla(220, 90%, 30%,.5);
   border-radius: 5px;
-  
+
 }
 
 
@@ -348,7 +333,7 @@ background-color: hsla(290, 80%, 57%, .2);
 }
 .bbo-childline {
   vertical-align:top;
-  
+
 }
 
 .traceryparse-node {
@@ -390,7 +375,7 @@ background-color: hsla(290, 80%, 57%, .2);
   width: 90px;
   padding: 2px;
   display: inline-block;
-  
+
 }
 
 .mapinfo-exitstatus {
@@ -408,8 +393,8 @@ background-color: hsla(290, 80%, 57%, .2);
 
 .map-function {
   border-radius: 35px 0px 0px 35px;
-  
-  display: inline-block;  
+
+  display: inline-block;
     background-color: hsla(220, 50%, 60%,.7);
       border: 1px solid hsla(250, 90%, 30%,.3);
 }
@@ -417,7 +402,7 @@ background-color: hsla(290, 80%, 57%, .2);
 .fxn-name {
   color: hsla(220, 90%, 30%,.7);
   font-weight: bold;
-  background-color: hsla(220, 50%, 60%,0) !important; 
+  background-color: hsla(220, 50%, 60%,0) !important;
   border:none !important;
 
 }
@@ -460,7 +445,7 @@ background-color: hsla(290, 80%, 57%, .2);
   background-color: hsla(280, 60%, 80%,1);
   border: 2px solid hsla(280, 90%, 30%,.6);
   box-shadow:  inset 0px 0px 5px 0px hsla(20, 60%, 45%,1);
-  
+
 }
 
 
@@ -469,12 +454,12 @@ background-color: hsla(290, 80%, 57%, .2);
 .mapinfo-condition.override {
 
   border: 2px solid hsla(220, 90%, 30%,.5);
-  
+
 }
 .mapinfo-exit.open {
   background-color: hsla(290, 60%, 90%,1);
   border: 2px solid hsla(220, 90%, 50%,.5);
-  
+
 }
 
 .mapinfo-exit {
