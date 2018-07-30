@@ -115,7 +115,19 @@ const routes = {
 	'/bots/tesla.js': (req, res) => rndr({
 		filename: path.resolve(__dirname, 'bots/tesla.js'),
 		contentType: 'application/javascript'
-	}, res)
+	}, res),
+	'/css/images/ui-icons_444444_256x240.png': (req, res) => rndr({
+		filename: path.resolve(__dirname, 'css/images/ui-icons_444444_256x240.png'),
+		contentType: 'image/gif'
+	}, res),
+	'/css/images/ui-icons_555555_256x240.png': (req, res) => rndr({
+		filename: path.resolve(__dirname, 'css/images/ui-icons_555555_256x240.png'),
+		contentType: 'image/gif'
+	}, res),
+	'/css/images/ui-icons_777620_256x240.png': (req, res) => rndr({
+		filename: path.resolve(__dirname, 'css/images/ui-icons_777620_256x240.png'),
+		contentType: 'image/gif'
+	}, res),
 
 }
 
